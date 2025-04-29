@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Agency</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+            font-size: 50px;
+        }
+
+        body{
+            
+            background-color: cornsilk; 
+            font-family: Poppins;
+        }
+        #text1{
+            color: orange;
+            font-style: italic;
+            margin: 50px;
+        }
+        #text2{
+            width: 500px;
+            margin: 50px;
+        }
+        #txt_color{
+            color: darkblue;
+        }
+        #text2, #txt_color{
+            font-weight: bolder;
+        }
+        #container1{
+            display: flex;
+        }
+        img{
+            width: 200px;
+            border-radius: 6px;
+        }
+        #container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 50px;
+            margin-top: 100px;
+        }
+        .container_img{
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+        .container_txt{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+        }
+        h6{
+            font-size: 30px;
+            font-family: Poppins;
+        }
+        .main_txt{
+            font-size: 20px;
+            width: 350px;
+        }
+    </style>
+</head>
+<body>
+    <p id="text1">dev.com</p>
+    <p id="text2">We are a <span id="txt_color">Creative</span> Design Agency</p>
+    <div id="container">
+        <div class="container_img">
+            
+            <img src="assets/cat1.jpg">
+            <div class="container_txt">
+                <h6>Beauty</h6>
+                <p class="main_txt">We strive to create the most beautiful website for all your needs. Working closely with you to design and develop on amazing website for your business.</p>
+            </div>  
+        </div>
+        <div  class="container_img">
+            
+            <img src="assets/cat2.jpg">
+            <div class="container_txt">
+                <h6>Construction</h6>
+                <p class="main_txt">Built by our team of professional developers, we ensure the most rigourous and modern website. Built from scratch using HTML and CSS. Only the best for you</p>
+            </div>
+        </div>
+</body>
+</html>
+
